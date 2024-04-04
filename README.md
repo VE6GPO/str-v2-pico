@@ -31,3 +31,5 @@
 - SPI (Data, Clock, ChipSelect) - 3 GPO
 - RGB dial light (PWM) - 3 GPO
 - Display I2C - 2 GPO
+
+MCU needs 21 GPIO lines in total, plus maybe another 2 to "talk" to Raspberry Pi ...
