@@ -3,8 +3,8 @@
 ### NJW1194 has:
 - 4 stereo inputs
 - SPI interface
-- controls Volume (separate L/R)
-- controls Tone (Bass/Treble)
+- Volume control (separate L/R)
+- Tone controls (Bass/Treble)
 
 ### TODO:
 
