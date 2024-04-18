@@ -6,10 +6,7 @@
 - Volume control (separate L/R)
 - Tone controls (Bass/Treble)
 
-### TODO:
-
-- Utilize rotary encoder w. push button for Volume/Mute control
-- Use existing pots fed to ADC for controlling Tone + Balance
+## Requirements:
 
 ### Audio inputs:
 - AM Radio
@@ -33,3 +30,9 @@
 - Display I2C - 2 GPO
 
 MCU needs 21 GPIO lines in total, plus maybe another 2 to "talk" to Raspberry Pi ...
+
+### TODO:
+
+- Utilize rotary encoder w. push button for Volume/Mute control
+- Use existing pots fed to ADC for controlling Tone + Balance
+
