@@ -11,7 +11,7 @@
 ### Audio inputs:
 - AM Radio
 - FM Radio
-- IP Radio (Raspberry Pi as internet radio stream receiver)
+- IP Radio (Raspberry Pi as an internet radio stream receiver)
 - External input (TV)
 
 ### MCU inputs - total 12 GPI:
