@@ -1,4 +1,5 @@
 #include "Arduino.h"
+
 class NJW1194{
   private:
     byte data;
