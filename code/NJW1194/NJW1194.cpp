@@ -1,4 +1,4 @@
-#include"NJW1194.h"
+#include "NJW1194.h"
 
 void NJW1194::initialize(int L_PIN , int C_PIN , int D_PIN , bool CA[4]){
     latch_pin = L_PIN;
@@ -55,8 +55,6 @@ byte address = 0b00000000;
 send_data(data , address);
 }
 
-
-
 void NJW1194::volume_control_2 (float value){
   if(value == 0){
     data = 64;
@@ -79,11 +77,13 @@ send_data(data , address);
 }
 
 
-void NJW1194::input_selector   (int value){
+void NJW1194::input_selector (int value){
+
   data = value << 2;
   byte address = 0b00100000;
   send_data(data , address);
 }
+
 
 void NJW1194::treble_control(int value){
 treble_value = value;
